@@ -34,7 +34,7 @@ const Container = styled.div`
           }
           button {
             padding: 0.5rem 1rem;
-            background-color: #e50914;
+            background-color: #366af2;
             border: none;
             cursor: pointer;
             color: white;

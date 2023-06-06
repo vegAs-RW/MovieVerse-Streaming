@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styled from "styled-components";
-import logo from "../assets/logo.png";
+import logo from "../assets/MovieVerse.png";
 
 const Container = styled.div`
 padding: 0 4rem;
@@ -12,7 +12,7 @@ padding: 0 4rem;
 }
 button {
     padding:0.5rem 1rem;
-    background-color: #e50914;
+    background-color: #366af2;
     border: none;
     cursor: pointer;
     color: white;
