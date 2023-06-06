@@ -2,6 +2,7 @@ import React from "react";
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Login from "./pages/Login";
 import Moviverse from "./pages/Moviverse";
+import Player from "./pages/Player";
 import Signup from "./pages/Signup";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/signup" element={<Signup />} />
+        <Route exact path="/player" element={<Player />} />
         <Route exact path="/" element={<Moviverse />} />
       </Routes>
     </BrowserRouter>
